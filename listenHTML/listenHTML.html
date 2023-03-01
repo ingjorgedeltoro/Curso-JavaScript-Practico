@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen HTML with JS</title>
+</head>
+<body>
+    <h1>Basic DOM manipulation</h1>
+    <!--With the function onchange we are going to listen if the input modify value-->
+    <!--Example: onchange="console.log('This value changed')-->
+    <input id="calculation1" placeholder="Enter value 1"/>
+    <input id="calculation2" placeholder="Enter value 2"/>
+    <!--With the function onclick we are going to listen if the button was press-->
+    <!--And the function click will do the actions. in this case only did console.log();-->
+    <!--Also we could to do a new function the JavaScript file and call it here-->
+    <!--In this example, i created a new function in the JavaScript file and then call it here-->
+    <button id="btnCalculation" onclick="btnPressed();">Calculation</button>
+    <!--We are going to creat a paragraph, this paragraph is invisible, but when
+    we will click on the button, we will can to watch the result of the sum-->
+    <p id="result"></p>
+    <script src="./listenHTML.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.resultado{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    padding-left: 150px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-color: black;
+}
+.cuerpo{
+    text-align: center;
+}
+.btn{
+    margin: 2px;
+    border-color: black;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+body{
+    background-color: black;
+    height: 500px;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-matematicas_23-2148146269.jpg?w=996&t=st=1677442687~exp=1677443287~hmac=aef28a06624de3dfd27b090a84fa8df9f1031f2930d75d524e3969a8f6097380");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size:80rem;
+}
+.pie{
+    margin-top: 180px;
+}
